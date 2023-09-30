@@ -87,3 +87,11 @@ input[type=text]{
   margin-top: 10px;
   cursor: pointer;
 }
+@media screen and (max-width:500px){
+  .ToDoContent{
+   width: 250px;
+  }
+  .Input input{
+   width: 200px;
+  }
+}
